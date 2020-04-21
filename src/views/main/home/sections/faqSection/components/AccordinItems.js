@@ -1,55 +1,78 @@
-import React, {Component} from 'react';
-import {Accordion, Card} from "react-bootstrap";
+import React from 'react';
 
-class AccordinItems extends Component {
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+} from 'react-accessible-accordion';
 
-    render() {
-        return (
-            <Accordion defaultActiveKey="0">
-                <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="0">
-                        <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book.</Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-                <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="1">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="1">
-                        <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book.</Card.Body>
-                    </Accordion.Collapse>
-                </Card>
+// Demo styles, see 'Styles' section below for some notes on use.
+import 'react-accessible-accordion/dist/fancy-example.css';
 
-                <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="2">
+export default function AccordinItems() {
+    return (
+        <Accordion>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="2">
-                        <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book.</Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-                <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="3">
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        Exercitation in fugiat est ut ad ea cupidatat ut in
+                        cupidatat occaecat ut occaecat consequat est minim minim
+                        esse tempor laborum consequat esse adipisicing eu
+                        reprehenderit enim.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Is free will real or just an illusion?
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        In ad velit in ex nostrud dolore cupidatat consectetur
+                        ea in ut nostrud velit in irure cillum tempor laboris
+                        sed adipisicing eu esse duis nulla non.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="3">
-                        <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book.</Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-            </Accordion>
-        );
-    }
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        Exercitation in fugiat est ut ad ea cupidatat ut in
+                        cupidatat occaecat ut occaecat consequat est minim minim
+                        esse tempor laborum consequat esse adipisicing eu
+                        reprehenderit enim.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Is free will real or just an illusion?
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        In ad velit in ex nostrud dolore cupidatat consectetur
+                        ea in ut nostrud velit in irure cillum tempor laboris
+                        sed adipisicing eu esse duis nulla non.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+    );
 }
-
-export default AccordinItems;

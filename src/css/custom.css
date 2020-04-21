@@ -1,0 +1,264 @@
+/*Global Css*/
+
+body {
+    background-color: #0A0B0E !important;
+    font-family: "Helvetica Neue", serif !important;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a, h1, h2, h3, h4, h5, span, p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+}
+
+.navbar-expand .navbar-nav .header-button.nav-link {
+    padding: 10px 20px;
+    background-color: #3061db;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-left: 10px !important;
+}
+
+
+.default-button {
+    float: left;
+    padding: 16px 44px !important;
+    background-color: #3061db;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.default-button:hover, .default-button:focus {
+    outline: none;
+    background-color: #3A6EF1 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.header-logo img {
+    height: 28px;
+}
+
+.section-heading p {
+    float: left;
+    width: 100%;
+    margin-top: 20px !important;
+    max-width: 600px;
+    font-size: 14px !important;
+    text-align: center;
+}
+
+/* section1 Style*/
+.banner {
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+    background-color: #1C1C1C !important;
+}
+
+.banner.dark-back {
+    background-color: #0A0B0E !important;
+}
+
+.banner-content h1 {
+    font-weight: bold;
+}
+
+.banner-content p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.coaches-feat h2 {
+    font-size: 1rem;
+    margin-bottom: 40px !important;
+}
+
+/* section2 Style*/
+
+.choose-course ul li {
+    height: 40px;
+}
+
+.choose-course ul li:first-child a {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.choose-course ul li:last-child a {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.choose-course ul li a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 14px;
+    color: #0A0B0E;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.choose-course ul li.active a {
+    background-color: #3A6EF1 !important;
+    color: #ffffff;
+}
+
+.slider {
+    float: left;
+    width: 100%;
+}
+
+/* section3 Style*/
+
+.goal-step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goal-step-item img {
+    width: 70px;
+}
+
+.goal-step-item span {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.goal-step-item p {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* section4 Style*/
+.classes-creator {
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+/* section5 Style*/
+.get-access {
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+    background-color: #1C1C1C !important;
+}
+
+/* section 6 Style */
+
+.faq-item {
+    float: left;
+    width: 100%;
+}
+
+/*FOOTER SECTION*/
+
+.footer {
+    float: left;
+    width: 100%;
+    background-color: #1C1C1C !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd !important;
+    font-size: 14px;
+    padding: 60px 0;
+}
+
+.footer ul li:first-child {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.footer ul li {
+    line-height: 24px;
+}
+
+.footer ul li a {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer ul.download-app li img {
+    width: 120px;
+}
+
+.footer ul.signup-list img {
+    margin-right: 10px;
+    width: 13px;
+}
+
+.footer-form input {
+    height: 40px;
+    border-radius: 20px;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+
+.footer-form input::placeholder {
+    color: #dddddd;
+}
+
+.footer-form button.input-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    border-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 14px;
+}
+
+.copyright {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright span {
+    font-size: 14px;
+}
+
+
+.mobileScreen.d-flex {
+    display: none !important;
+}
+
+/*bootstrap Style*/
+.container {
+    max-width: 940px !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 12px;
+    font-weight: 500;
+}

@@ -1,5 +1,6 @@
 @import './css/custom.css';
 @import './css/responsive.css';
+@import './css/font.css';
 
 .error {
     color: red;

@@ -25,17 +25,17 @@ class AboutSlider extends Component {
     render() {
         return (
             <Carousel
-                swipeable={false}
-                draggable={false}
+                swipeable={true}
+                draggable={true}
                 showDots={false}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                autoPlay={this.props.deviceType !== "mobile" ? true : false}
+                autoPlay={this.props.deviceType !== "mobile" ? true : true}
                 autoPlaySpeed={1000}
                 keyBoardControl={true}
                 customTransition="all .5"
-                transitionDuration={500}
+                transitionDuration={1000}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
                 deviceType={this.props.deviceType}

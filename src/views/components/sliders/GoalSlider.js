@@ -29,20 +29,22 @@ class GoalSlider extends Component {
                 draggable={false}
                 showDots={true}
                 responsive={responsive}
-                ssr={true} // means to render carousel on server-side.
+                ssr={false} // means to render carousel on server-side.
                 infinite={true}
-                autoPlay={this.props.deviceType !== "mobile" ? true : false}
+                autoPlay={this.props.deviceType !== "mobile" ? false : false}
                 autoPlaySpeed={1000}
                 keyBoardControl={true}
-                customTransition="all .5"
-                transitionDuration={500}
+                customTransition="all 1"
+                transitionDuration={1000}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
                 deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
             >
-                <div className="item"><img src="../../../../images/cover_art1.png"/></div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art1.png"/>
+                </div>
                 <div className="item"><img src="../../../../images/cover_art2.png"/></div>
                 <div className="item"><img src="../../../../images/cover_art3.png"/></div>
                 <div className="item"><img src="../../../../images/cover_art4.png"/></div>

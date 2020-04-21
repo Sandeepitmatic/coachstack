@@ -20,7 +20,7 @@ class Home extends Component {
 
     render() {
         return (
-            <>
+            <div className="mt-5">
                 <BannerSection/>
                 <YourGoal/>
                 <AchieveGoal/>
@@ -29,7 +29,7 @@ class Home extends Component {
                 <AboutUs/>
                 <FAQSection/>
                 <GetAccess/>
-            </>
+            </div>
         );
     }
 }

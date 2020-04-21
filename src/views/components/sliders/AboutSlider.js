@@ -10,8 +10,8 @@ const responsive = {
     },
     tablet: {
         breakpoint: {max: 1024, min: 464},
-        items: 3,
-        slidesToSlide: 2 // optional, default to 1.
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
         breakpoint: {max: 464, min: 0},
@@ -37,7 +37,7 @@ class AboutSlider extends Component {
                 customTransition="all .5"
                 transitionDuration={1000}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
+                removeArrowOnDeviceType={["desktop", "", ""]}
                 deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"

@@ -14,7 +14,7 @@ class Footer extends Component {
             <footer className="footer float-left w-100">
                 <Container>
                     <Row>
-                        <Col md={2}>
+                        <Col md={2} xs={4}>
                             <ul>
                                 <li>Links</li>
                                 <li><Link to="/">Home</Link></li>
@@ -26,9 +26,9 @@ class Footer extends Component {
                                 <li><Link to="/">Start Now</Link></li>
                             </ul>
                         </Col>
-                        <Col md={2}>
+                        <Col md={2} xs={4}>
                             <ul>
-                                <li>Courses></li>
+                                <li>Courses</li>
                                 <li><Link to="/">Courses</Link></li>
                                 <li><Link to="/">Membership</Link></li>
                                 <li><Link to="/">Workshops</Link></li>
@@ -38,7 +38,7 @@ class Footer extends Component {
                                 <li><Link to="/">Help</Link></li>
                             </ul>
                         </Col>
-                        <Col md={2}>
+                        <Col md={2} xs={4}>
                             <ul>
                                 <li>Legel</li>
                                 <li><Link to="/">Testimonials</Link></li>

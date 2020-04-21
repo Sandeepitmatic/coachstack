@@ -28,4 +28,13 @@
     .mobileScreen.d-flex {
         display: inline-block !important;
     }
+
+    ul.react-multi-carousel-track {
+        text-align: center;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

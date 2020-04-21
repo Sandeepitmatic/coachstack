@@ -15,7 +15,7 @@ class YourGoal extends Component {
                         <ChooseCourse/>
                     </div>
                 </Container>
-                <div className="slider">
+                <div className="slider yourGoalSlide">
                     <GoalSlider/>
                 </div>
             </section>

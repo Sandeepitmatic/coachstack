@@ -4,17 +4,17 @@ import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
     desktop: {
-        breakpoint: { max: 3000, min: 1024 },
+        breakpoint: {max: 3000, min: 1024},
         items: 6,
         slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
+        breakpoint: {max: 1024, min: 464},
         items: 2,
         slidesToSlide: 2 // optional, default to 1.
     },
     mobile: {
-        breakpoint: { max: 464, min: 0 },
+        breakpoint: {max: 464, min: 0},
         items: 1,
         slidesToSlide: 1 // optional, default to 1.
     }
@@ -45,15 +45,37 @@ class GoalSlider extends Component {
                     <div className="slide-overlay"></div>
                     <img src="../../../../images/cover_art1.png"/>
                 </div>
-                <div className="item"><img src="../../../../images/cover_art2.png"/></div>
-                <div className="item"><img src="../../../../images/cover_art3.png"/></div>
-                <div className="item"><img src="../../../../images/cover_art4.png"/></div>
-                <div className="item"><img src="../../../../images/cover_art5.png"/></div>
-                <div className="item"><img src="../../../../images/cover_art6.png"/></div>
-                <div className="item"><img src="../../../../images/cover_art1.png"/></div>
-                <div className="item"><img src="../../../../images/cover_art2.png"/></div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art2.png"/>
+                </div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art3.png"/>
+                </div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art4.png"/>
+                </div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art5.png"/>
+                </div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art6.png"/>
+                </div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art1.png"/>
+                </div>
+                <div className="item">
+                    <div className="slide-overlay"></div>
+                    <img src="../../../../images/cover_art2.png"/>
+                </div>
             </Carousel>
         );
     }
 }
+
 export default GoalSlider;

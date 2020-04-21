@@ -3,9 +3,6 @@ import {Switch, BrowserRouter} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-
 import MainRoute from "./views/components/MainRoute";
 import Home from "./views/main/home/Home";
 

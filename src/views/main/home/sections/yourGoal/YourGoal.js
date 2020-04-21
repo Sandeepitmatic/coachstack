@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Container} from "react-bootstrap";
 import SectionHeading from "../../../../components/heading/SectionHeading";
 import ChooseCourse from "./ChooseCourse";
-import SliderOne from "../../../../components/sliders/SliderOne";
+import GoalSlider from "../../../../components/sliders/GoalSlider";
 
 class YourGoal extends Component {
 
@@ -16,7 +16,7 @@ class YourGoal extends Component {
                     </div>
                 </Container>
                 <div className="slider">
-                    <SliderOne/>
+                    <GoalSlider/>
                 </div>
             </section>
         );

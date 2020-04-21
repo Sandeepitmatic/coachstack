@@ -26,6 +26,27 @@ class AccordinItems extends Component {
                             printer took a galley of type and scrambled it to make a type specimen book.</Card.Body>
                     </Accordion.Collapse>
                 </Card>
+
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="2">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                        <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="3">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="3">
+                        <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</Card.Body>
+                    </Accordion.Collapse>
+                </Card>
             </Accordion>
         );
     }

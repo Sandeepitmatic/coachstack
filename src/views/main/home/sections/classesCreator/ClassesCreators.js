@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Container} from "react-bootstrap";
 import SectionHeading from "../../../../components/heading/SectionHeading";
+import ClassesSlider from "../../../../components/sliders/ClassesSlider";
 
 class ClassesCreators extends Component {
 
@@ -15,7 +16,7 @@ class ClassesCreators extends Component {
                     />
                 </Container>
                 <div className="slider">
-
+                    <ClassesSlider/>
                 </div>
             </section>
         );

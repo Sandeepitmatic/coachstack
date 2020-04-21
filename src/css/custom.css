@@ -127,6 +127,7 @@ a, h1, h2, h3, h4, h5, span, p {
 .slider {
     float: left;
     width: 100%;
+    margin-top: 50px;
 }
 
 /* section3 Style*/
@@ -261,4 +262,21 @@ a, h1, h2, h3, h4, h5, span, p {
     color: #ffffff !important;
     font-size: 12px;
     font-weight: 500;
+}
+
+.accordion > .card:not(:last-of-type) {
+    border-radius: 0 !important;
+    margin-bottom: 10px;
+    background-color: transparent !important;
+}
+
+.accordion > .card > .card-header {
+    background-color: #303030;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 0 !important;
+}
+
+.collapse.show ~ .card-header {
+    background-color: #ffffff !important;
 }

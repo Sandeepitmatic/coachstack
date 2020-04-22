@@ -17,7 +17,7 @@ export default function AccordinItems() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -32,7 +32,7 @@ export default function AccordinItems() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Is free will real or just an illusion?
+                        <span>Is free will real or just an illusion?</span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -47,7 +47,7 @@ export default function AccordinItems() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -62,7 +62,7 @@ export default function AccordinItems() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Is free will real or just an illusion?
+                        <span>Is free will real or just an illusion?</span>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>

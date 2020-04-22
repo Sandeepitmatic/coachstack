@@ -200,12 +200,12 @@ header.header {
 
 .get-access .default-button {
     background-color: #ffffff;
-    color: #3061db;
+    color: #1C1C1C;
 }
 
-.get-access .default-button:hover {
+.get-access .default-button:hover , .get-access .default-button:focus {
     background-color: #ffffff !important;
-    color: #3061db !important;
+    color: #1C1C1C !important;
 }
 
 /* section 6 Style */
@@ -220,7 +220,7 @@ header.header {
 .footer {
     float: left;
     width: 100%;
-    background-color: #1C1C1C !important;
+    background-color: #0A0B0E !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,9 +283,19 @@ header.header {
 }
 
 .copyright span {
-    font-size: 14px;
+    font-size: 12px;
 }
 
+.copyright ul {
+    display: flex;
+    flex-direction: row;
+}
+.copyright ul li{
+    margin-left: 10px;
+}
+.copyright ul li img{
+    width: 20px;
+}
 
 .mobileScreen.d-flex {
     display: none !important;
@@ -312,6 +322,10 @@ header.header {
 
 .react-multi-carousel-item .item {
     position: relative;
+}
+
+.react-multi-carousel-item .item img {
+    width: 100%;
 }
 
 .yourGoalSlide .react-multi-carousel-item .item .slide-overlay {
@@ -369,6 +383,20 @@ header.header {
     flex-direction: column;
     align-items: center;
     padding: 30px 15px;
+    position: relative;
+}
+
+.slider-social-link {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9;
+}
+
+.slider-social-link img {
+    width: 30px !important;
+    height: 30px !important;
+    box-shadow: none !important;
 }
 
 .about-item img {
@@ -468,3 +496,9 @@ header.header {
 /*.card {*/
 /*    background-color: transparent !important;*/
 /*}*/
+
+/* width */
+
+.react-multiple-carousel__arrow:hover ,.react-multiple-carousel__arrow {
+    background: transparent !important;
+}

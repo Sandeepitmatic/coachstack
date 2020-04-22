@@ -5,7 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 5,
+        items: 6,
         slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
@@ -43,35 +43,49 @@ class ClassesSlider extends Component {
                 itemClass="carousel-item-padding-40-px"
             >
                 <div className="item">
-                    <img src="../../../../images/s1.jpg"/>
+                    <img src="../../../../images/classes/coach1.png"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teacher The Art of Nefotiation</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/s3.jpg"/>
+                    <img src="../../../../images/classes/coach2.png"/>
                     <div>
                         <span>Chris Voss</span>
-                        <span>Teacher The Art of Nefotiation</span>
+                        <span>Teacher Cooking</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/s2.jpg"/>
+                    <img src="../../../../images/classes/coach3.png"/>
                     <div>
                         <span>Chris Voss</span>
-                        <span>Teacher The Art of Nefotiation</span>
+                        <span>Teaches Acting</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/s1.jpg"/>
+                    <img src="../../../../images/classes/coach4.png"/>
                     <div>
                         <span>Chris Voss</span>
-                        <span>Teacher The Art of Nefotiation</span>
+                        <span>Teaches Filmmaking</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/s3.jpg"/>
+                    <img src="../../../../images/classes/coach5.png"/>
+                    <div>
+                        <span>Chris Voss</span>
+                        <span>Teaches Photography</span>
+                    </div>
+                </div>
+                <div className="item">
+                    <img src="../../../../images/classes/coach6.png"/>
+                    <div>
+                        <span>Chris Voss</span>
+                        <span>Teaches Interior Designer</span>
+                    </div>
+                </div>
+                <div className="item">
+                    <img src="../../../../images/classes/coach7.png"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teacher The Art of Nefotiation</span>

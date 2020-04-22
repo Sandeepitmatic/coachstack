@@ -66,16 +66,21 @@ class Footer extends Component {
                                         <Button className="input-button">Submit</Button>
                                     </div>
                                 </li>
-                                <li><img src="../../../../images/SVG/patent.svg" alt="icon"/>+888 123 4567</li>
-                                <li><img src="../../../../images/SVG/patent.svg" alt="icon"/>info@coachstack.com</li>
-                                <li><img src="../../../../images/SVG/patent.svg" alt="icon"/>start a live chat</li>
+                                <li><img src="../../../../images/SVG/phone.svg" alt="icon"/>+888 123 4567</li>
+                                <li><img src="../../../../images/SVG/mail.svg" alt="icon"/>info@coachstack.com</li>
+                                <li><img src="../../../../images/SVG/live%20chat.svg" alt="icon"/>start a live chat</li>
                             </ul>
                         </Col>
                     </Row>
                 </Container>
                 <Container className="copyright">
-                    <span>2020 Copyright CoachStack.All rights reserved.</span>
-                    <span>Links</span>
+                    <span>©2020 Copyright CoachStack.All rights reserved.</span>
+                   <ul>
+                       <li><Link><img src="../../../../images/SVG/facebook-white.svg" alt="icon"/></Link></li>
+                       <li><Link><img src="../../../../images/SVG/twitter-white.svg" alt="icon"/></Link></li>
+                       <li><Link><img src="../../../../images/SVG/linkedin-white.svg" alt="icon"/></Link></li>
+                       <li><Link><img src="../../../../images/SVG/instagram-white.svg" alt="icon"/></Link></li>
+                   </ul>
                 </Container>
             </footer>
         );

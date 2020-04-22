@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import {Link} from "react-router-dom";
 
 const responsive = {
     desktop: {
@@ -44,6 +45,9 @@ class AboutSlider extends Component {
             >
                 <div className="about-item-container">
                     <div className="about-item">
+                        <Link to="/" className="slider-social-link">
+                            <img src="../../../../images/SVG/facebook.svg"/>
+                        </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
                         <p>Coachstack is a life saver. I don't have the time or money for a collage education. My goal
@@ -52,6 +56,9 @@ class AboutSlider extends Component {
                 </div>
                 <div className="about-item-container">
                     <div className="about-item">
+                        <Link to="/" className="slider-social-link">
+                            <img src="../../../../images/SVG/twitter.svg"/>
+                        </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
                         <p>Coachstack is a life saver. I don't have the time or money for a collage education. My goal
@@ -60,6 +67,9 @@ class AboutSlider extends Component {
                 </div>
                 <div className="about-item-container">
                     <div className="about-item">
+                        <Link to="/" className="slider-social-link">
+                            <img src="../../../../images/SVG/facebook.svg"/>
+                        </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
                         <p>Coachstack is a life saver. I don't have the time or money for a collage education. My goal
@@ -68,6 +78,9 @@ class AboutSlider extends Component {
                 </div>
                 <div className="about-item-container">
                     <div className="about-item">
+                        <Link to="/" className="slider-social-link">
+                            <img src="../../../../images/SVG/twitter.svg"/>
+                        </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
                         <p>Coachstack is a life saver. I don't have the time or money for a collage education. My goal
@@ -76,6 +89,9 @@ class AboutSlider extends Component {
                 </div>
                 <div className="about-item-container">
                     <div className="about-item">
+                        <Link to="/" className="slider-social-link">
+                            <img src="../../../../images/SVG/facebook.svg"/>
+                        </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
                         <p>Coachstack is a life saver. I don't have the time or money for a collage education. My goal

@@ -16,7 +16,7 @@ class MainHeader extends Component {
                 <div className="container">
                     <Navbar bg="transparent" variant="dark" className="justify-content-between px-0">
                         <div className="d-flex align-items-center">
-                            <Nav.Link href="/" className="header-logo text-dark px-0 mr-5">
+                            <Nav.Link href="/" className="header-logo text-dark px-0 ">
                                 <img src="../../../../images/white-logo.png" alt="logo"/>
                             </Nav.Link>
                         </div>

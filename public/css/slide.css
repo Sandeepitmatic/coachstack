@@ -1,0 +1,21 @@
+.react-multiple-carousel__arrow--left::before {
+    content:"" !important; /* with class ModalCarrot ??*/
+    position:relative; /*or absolute*/
+    z-index:100000;
+    height: 35px; /*height of image*/
+    width: 35px;
+    background-size: 35px 35px;
+    display: inline-block;
+    background-image: url('../images/SVG/arrow-previous.svg');
+}
+
+.react-multiple-carousel__arrow::before {
+    content:"" !important; /* with class ModalCarrot ??*/
+    position:relative; /*or absolute*/
+    z-index:100000;
+    height: 35px; /*height of image*/
+    width: 35px;
+    background-size: 35px 35px;
+    display: inline-block;
+    background-image: url('../images/SVG/arrow-next.svg');
+}

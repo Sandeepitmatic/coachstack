@@ -10,14 +10,14 @@ class GridSection extends Component {
             <section className="banner">
                 <Container className="mt-5">
                     <GridRightImage
-                        heading={'Beautiful 4K quality courses you will love to watch. We have turned learning into art'}
-                        detail={'Its too easy to slide into a funk in the modern world. Laziness, procrastination and ' +
-                        'helplessness are our enemy! Coach Stack help you start working on what makes you feel alive.'}
+                        heading={'Beautiful 4K quality courses you will love to watch. We have turned learning into art.'}
+                        detail={'Step into another world. We believe learning videos should be world class in quality. ' +
+                        'All courses on Coach Stack are Original productions. We plan, shoot and produce every course alongside your coaches.'}
                         button={'Try Premium'}
                         banner={'../../../../images/image3.png'}
                     />
                     <GridLeftImage
-                        heading={'Expand your horizons. 10 minutes or less'}
+                        heading={'Expand your horizons. 10 minutes or less.'}
                         detail={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. The first\n' +
                         '                                    line of Lorem Ipsum'}
                         button={'Get Started'}
@@ -25,8 +25,8 @@ class GridSection extends Component {
                     />
                     <GridRightImage
                         heading={'Learn anywhere on-demand, on any device.'}
-                        detail={'Its too easy to slide into a funk in the modern world. Laziness, procrastination and ' +
-                        'helplessness are our enemy! Coach Stack help you start working on what makes you feel alive.'}
+                        detail={'Take your course at home, at your favourite coffee shop or on your commute. Coach ' +
+                        'Stack courses are available to access on any device.'}
                         button={'Browse Courses'}
                         banner={'../../../../images/image5.png'}
                     />

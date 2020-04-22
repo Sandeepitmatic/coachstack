@@ -40,7 +40,7 @@ class Footer extends Component {
                         </Col>
                         <Col md={2} xs={4}>
                             <ul>
-                                <li>Legel</li>
+                                <li>Legal</li>
                                 <li><Link to="/">Testimonials</Link></li>
                                 <li><Link to="/">FAQ's</Link></li>
                                 <li><Link to="/">Terms & Condition</Link></li>
@@ -53,7 +53,7 @@ class Footer extends Component {
                         <Col md={2}>
                             <ul className="download-app">
                                 <li>Get Our App</li>
-                                <li><img src="../../../../images/google_download.png" alt="png"/></li>
+                                <li className="mb-2"><img src="../../../../images/google_download.png" alt="png"/></li>
                                 <li><img src="../../../../images/apple_download.png" alt="png"/></li>
                             </ul>
                         </Col>

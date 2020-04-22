@@ -8,12 +8,10 @@ class YourGoal extends Component {
 
     render() {
         return (
-            <section className="banner">
+            <section className="banner" id={'section1'}>
                 <Container>
                     <SectionHeading heading="Whatever your goal -  we'll get you there"/>
-                    <div className="float-left w-100 mt-4">
-                        <ChooseCourse/>
-                    </div>
+                    <ChooseCourse/>
                 </Container>
                 <div className="slider yourGoalSlide">
                     <GoalSlider/>

@@ -43,35 +43,35 @@ class GoalSlider extends Component {
             >
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art1.png"/>
+                    <img src="../../../../images/cover_art1.png" alt="banner"/>
                 </div>
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art2.png"/>
+                    <img src="../../../../images/cover_art2.png" alt="banner"/>
                 </div>
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art3.png"/>
+                    <img src="../../../../images/cover_art3.png" alt="banner"/>
                 </div>
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art4.png"/>
+                    <img src="../../../../images/cover_art4.png" alt="banner"/>
                 </div>
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art5.png"/>
+                    <img src="../../../../images/cover_art5.png" alt="banner"/>
                 </div>
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art6.png"/>
+                    <img src="../../../../images/cover_art6.png" alt="banner"/>
                 </div>
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art1.png"/>
+                    <img src="../../../../images/cover_art1.png" alt="banner"/>
                 </div>
                 <div className="item">
                     <div className="slide-overlay"></div>
-                    <img src="../../../../images/cover_art2.png"/>
+                    <img src="../../../../images/cover_art2.png" alt="banner"/>
                 </div>
             </Carousel>
         );

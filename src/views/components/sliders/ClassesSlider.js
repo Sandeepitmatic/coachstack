@@ -31,7 +31,7 @@ class ClassesSlider extends Component {
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                autoPlay={this.props.deviceType !== "mobile" ? true : false}
+                autoPlay={this.props.deviceType !== "mobile" ? false : false}
                 autoPlaySpeed={1000}
                 keyBoardControl={true}
                 customTransition="all .5"
@@ -43,49 +43,49 @@ class ClassesSlider extends Component {
                 itemClass="carousel-item-padding-40-px"
             >
                 <div className="item">
-                    <img src="../../../../images/classes/coach1.png"/>
+                    <img src="../../../../images/classes/coach1.png" alt="banner"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teacher The Art of Nefotiation</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/classes/coach2.png"/>
+                    <img src="../../../../images/classes/coach2.png" alt="banner"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teacher Cooking</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/classes/coach3.png"/>
+                    <img src="../../../../images/classes/coach3.png" alt="banner"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teaches Acting</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/classes/coach4.png"/>
+                    <img src="../../../../images/classes/coach4.png" alt="banner"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teaches Filmmaking</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/classes/coach5.png"/>
+                    <img src="../../../../images/classes/coach5.png" alt="banner"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teaches Photography</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/classes/coach6.png"/>
+                    <img src="../../../../images/classes/coach6.png" alt="banner"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teaches Interior Designer</span>
                     </div>
                 </div>
                 <div className="item">
-                    <img src="../../../../images/classes/coach7.png"/>
+                    <img src="../../../../images/classes/coach7.png" alt="banner"/>
                     <div>
                         <span>Chris Voss</span>
                         <span>Teacher The Art of Nefotiation</span>

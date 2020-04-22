@@ -46,7 +46,7 @@ class AboutSlider extends Component {
                 <div className="about-item-container">
                     <div className="about-item">
                         <Link to="/" className="slider-social-link">
-                            <img src="../../../../images/SVG/facebook.svg"/>
+                            <img src="../../../../images/SVG/facebook.svg" alt="svgImage"/>
                         </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
@@ -57,7 +57,7 @@ class AboutSlider extends Component {
                 <div className="about-item-container">
                     <div className="about-item">
                         <Link to="/" className="slider-social-link">
-                            <img src="../../../../images/SVG/twitter.svg"/>
+                            <img src="../../../../images/SVG/twitter.svg" alt="svgImage"/>
                         </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
@@ -68,7 +68,7 @@ class AboutSlider extends Component {
                 <div className="about-item-container">
                     <div className="about-item">
                         <Link to="/" className="slider-social-link">
-                            <img src="../../../../images/SVG/facebook.svg"/>
+                            <img src="../../../../images/SVG/facebook.svg" alt="svgImage"/>
                         </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
@@ -79,7 +79,7 @@ class AboutSlider extends Component {
                 <div className="about-item-container">
                     <div className="about-item">
                         <Link to="/" className="slider-social-link">
-                            <img src="../../../../images/SVG/twitter.svg"/>
+                            <img src="../../../../images/SVG/twitter.svg" alt="svgImage"/>
                         </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>
@@ -90,7 +90,7 @@ class AboutSlider extends Component {
                 <div className="about-item-container">
                     <div className="about-item">
                         <Link to="/" className="slider-social-link">
-                            <img src="../../../../images/SVG/facebook.svg"/>
+                            <img src="../../../../images/SVG/facebook.svg" alt="svgImage"/>
                         </Link>
                         <img src="../../../../images/s1.jpg"/>
                         <span>Danica Smith</span>

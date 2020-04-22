@@ -5,7 +5,7 @@ class ChooseCourse extends Component {
 
     render() {
         return (
-            <div className="float-left w-100 d-flex flex-column align-items-center choose-course">
+            <div className="float-left w-100 d-flex flex-column align-items-center choose-course mt-4">
                 <ul className="d-flex flex-row pb-1">
                     <li className="active"><Link onClick={this.props.click}>All</Link></li>
                     <li><Link onClick={this.props.click}>Work</Link></li>

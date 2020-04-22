@@ -11,8 +11,7 @@ class ClassesCreators extends Component {
                 <Container>
                     <SectionHeading lightBack={'lightBack'}
                                     heading="Classes Taught by Real Creators"
-                                    subHeading={`Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                     The first line of Lorem Ipsum`}
+                                    subHeading={`Learn from the worlds leading thought leaders, authors, healers, and activists, all on the same mission - to raise human consciousness.`}
                     />
                 </Container>
                 <div className="slider">

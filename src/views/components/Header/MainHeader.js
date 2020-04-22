@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Navbar, Nav} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class MainHeader extends Component {
 
@@ -19,10 +20,15 @@ class MainHeader extends Component {
                             <Nav.Link href="/" className="header-logo text-dark px-0 ">
                                 <img src="../../../../images/white-logo.png" alt="logo"/>
                             </Nav.Link>
+
+                            <Link className="header-browse nav-link effect" to={'/#section1'}>
+                                Browse
+                                <img width="10" src="../../../../images/down-arrow.png" alt="icon"/>
+                            </Link>
                         </div>
                         <div>
                             <Nav className="mr-auto">
-                                <Nav.Link href="#home">Login</Nav.Link>
+                                <Nav.Link href="#home" className="effect">Login</Nav.Link>
                                 <Nav.Link href="#link" className="header-button">Start Now</Nav.Link>
                             </Nav>
                         </div>

@@ -108,7 +108,43 @@ class MainHeader extends Component {
                                     <img width="8" style={{marginLeft: 5}} src="../../../../images/down-arrow-white.png"
                                          alt="icon"/>
                                     <ul className="header-links__dropdown__content">
-                                        <li><Link to="/">Browse</Link></li>
+                                        <li>
+                                           <span className="header-browse nav-link effect">
+                                                Browse
+                                                <img width="8" style={{marginLeft: 5}} src="../../../../images/down-arrow-white.png"
+                                                     alt="icon"/>
+                                                <ul className="header-links__dropdown__content">
+                                                    <li>
+                                                        <Link to="/">
+                                                            Work
+                                                             <img width="8" style={{marginLeft: 5}}
+                                                                  src="../../../../images/right-blue.png" alt="arrow"/>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/">
+                                                        Body, Love
+                                                             <img width="8" style={{marginLeft: 5}}
+                                                                  src="../../../../images/right-blue.png" alt="arrow"/>
+                                                       </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/">
+                                                            Play
+                                                             <img width="8" style={{marginLeft: 5}}
+                                                                  src="../../../../images/right-blue.png" alt="arrow"/>
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/">
+                                                            Grow
+                                                             <img width="8" style={{marginLeft: 5}}
+                                                                  src="../../../../images/right-blue.png" alt="arrow"/>
+                                                        </Link>
+                                                    </li>
+                                                </ul>
+                                            </span>
+                                        </li>
                                         <li><Link to="/">Login</Link></li>
                                         <li><Link to="/" className="header-button">Start Learning</Link></li>
                                         <li><Link to="/">Grow</Link></li>

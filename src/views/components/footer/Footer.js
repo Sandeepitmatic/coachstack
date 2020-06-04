@@ -6,81 +6,106 @@ class Footer extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {}
     }
+
+    scrollTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
 
     render() {
         return (
             <footer className="footer float-left w-100">
                 <Container>
                     <Row>
-                        <Col md={2} xs={4}>
+                        <Col md={2} xs={6}>
                             <ul>
-                                <li>Links</li>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/">About Us</Link></li>
-                                <li><Link to="/">Browse</Link></li>
-                                <li><Link to="/">Classes</Link></li>
-                                <li><Link to="/">Gifts</Link></li>
-                                <li><Link to="/">Categories</Link></li>
-                                <li><Link to="/">Start Now</Link></li>
-                            </ul>
-                        </Col>
-                        <Col md={2} xs={4}>
-                            <ul>
-                                <li>Courses</li>
-                                <li><Link to="/">Courses</Link></li>
                                 <li><Link to="/">Membership</Link></li>
-                                <li><Link to="/">Workshops</Link></li>
-                                <li><Link to="/">Coaching</Link></li>
-                                <li><Link to="/">Careers</Link></li>
-                                <li><Link to="/">Grands</Link></li>
-                                <li><Link to="/">Help</Link></li>
+                                <li><Link to="/">Coaches</Link></li>
+                                <li><Link to="/">Start Learning</Link></li>
                             </ul>
                         </Col>
-                        <Col md={2} xs={4}>
+                        <Col md={2} xs={6}>
                             <ul>
-                                <li>Legal</li>
+                                <li><Link to="/">Work</Link></li>
+                                <li><Link to="/">Body</Link></li>
+                                <li><Link to="/">Love</Link></li>
+                                <li><Link to="/">Play</Link></li>
+                                <li><Link to="/">Grow</Link></li>
+                            </ul>
+                        </Col>
+                        <Col md={2} xs={6}>
+                            <ul>
                                 <li><Link to="/">Testimonials</Link></li>
-                                <li><Link to="/">FAQ's</Link></li>
+                                <li><Link to="/">FAQ’s</Link></li>
                                 <li><Link to="/">Terms & Condition</Link></li>
                                 <li><Link to="/">Privacy Policy</Link></li>
-                                <li><Link to="/">Groups</Link></li>
-                                <li><Link to="/">Support</Link></li>
+                                <li><Link to="/">Jobs</Link></li>
                                 <li><Link to="/">Contact Us</Link></li>
                             </ul>
                         </Col>
-                        <Col md={2}>
+                        <Col md={3} xs={12}>
                             <ul className="download-app">
-                                <li>Get Our App</li>
-                                <li className="mb-2"><img src="../../../../images/google_download.png" alt="png"/></li>
-                                <li><img src="../../../../images/apple_download.png" alt="png"/></li>
+                                <li className="mb-2"><img src="../../../../images/appstore.png" alt="png"/></li>
+                                <li><img src="../../../../images/googlepay.png" alt="png"/></li>
                             </ul>
                         </Col>
-                        <Col md={4}>
+                        <Col md={3} xs={12}>
                             <ul className="signup-list">
-                                <li>SIGN UP TO GET THE LATEST</li>
+                                <li>Subscribe to Our News</li>
                                 <li>
                                     <div className="footer-form position-relative mb-3">
                                         <input className="form-control" placeholder="Your Email"/>
-                                        <Button className="input-button">Submit</Button>
+                                        <Button className="input-button">Subscribe</Button>
                                     </div>
                                 </li>
-                                <li><img src="../../../../images/SVG/phone.svg" alt="icon"/>+888 123 4567</li>
-                                <li><img src="../../../../images/SVG/mail.svg" alt="icon"/>info@coachstack.com</li>
-                                <li><img src="../../../../images/SVG/live%20chat.svg" alt="icon"/>start a live chat</li>
                             </ul>
+                            <ul className="d-flex flex-row social-links">
+                                <li>
+                                    <Link to="/">
+                                        <img className="dark" src="../../../../images/social/darkinsta.png" alt="icon"/>
+                                        <img className="light" src="../../../../images/social/lightnsta.png"
+                                             alt="icon"/>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link to="/">
+                                        <img className="dark" src="../../../../images/social/darktweeter.png"
+                                             alt="icon"/>
+                                        <img className="light" src="../../../../images/social/lighttweeter.png"
+                                             alt="icon"/>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link to="/">
+                                        <img className="dark" src="../../../../images/social/darkfb.png" alt="icon"/>
+                                        <img className="light" src="../../../../images/social/lightfb.png" alt="icon"/>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link to="/">
+                                        <img className="dark" src="../../../../images/social/darktube.png" alt="icon"/>
+                                        <img className="light" src="../../../../images/social/lightube.png" alt="icon"/>
+                                    </Link>
+                                </li>
+                            </ul>
+
+
+                            <div className="float-left w-100 mt-5 ">
+                                <Button onClick={this.scrollTop} className="scroll-to-top rounded float-right">
+                                    <img className="light" src="../../../../images/svg/butt_top.svg" alt="icon"/>
+                                </Button>
+                            </div>
                         </Col>
                     </Row>
-                </Container>
-                <Container className="copyright">
-                    <span>©2020 Copyright CoachStack.All rights reserved.</span>
-                   <ul>
-                       <li><Link><img src="../../../../images/SVG/facebook-white.svg" alt="icon"/></Link></li>
-                       <li><Link><img src="../../../../images/SVG/twitter-white.svg" alt="icon"/></Link></li>
-                       <li><Link><img src="../../../../images/SVG/linkedin-white.svg" alt="icon"/></Link></li>
-                       <li><Link><img src="../../../../images/SVG/instagram-white.svg" alt="icon"/></Link></li>
-                   </ul>
                 </Container>
             </footer>
         );

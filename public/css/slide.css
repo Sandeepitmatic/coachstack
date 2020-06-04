@@ -1,35 +1,25 @@
 .react-multiple-carousel__arrow--left::before {
-    content:"" !important; /* with class ModalCarrot ??*/
-    position:relative; /*or absolute*/
-    z-index:100000;
-    height: 35px; /*height of image*/
-    width: 35px;
-    background-size: 35px 35px;
+    content: "" !important;
+    width: 30px;
+    height: 30px;
+    background: url('../images/left.png') no-repeat;
+    top: 10px;
+    right: 5px;
+    position: absolute;
     display: inline-block;
-    background-image: url('../images/SVG/arrow-previous.svg');
 }
 
 .react-multiple-carousel__arrow--right::before {
-    content:"" !important; /* with class ModalCarrot ??*/
-    position:relative; /*or absolute*/
-    z-index:100000;
-    height: 35px; /*height of image*/
-    width: 35px;
-    background-size: 35px 35px;
+    content: "" !important;
+    width: 30px;
+    height: 30px;
+    background: url('../images/right.png') no-repeat;
+    top: 10px;
+    right: 5px;
+    position: absolute;
     display: inline-block;
-    background-image: url('../images/SVG/arrow-next.svg');
 }
 
-.accordion__button:after{ content:"" !important; /* with class ModalCarrot ??*/
-    position:relative; /*or absolute*/
-    height: 20px !important; /*height of image*/
-    width: 20px !important;
-    background-size: 20px 20px;
-    display: inline-block;
-    background-image: url('../images/SVG/plus.svg') !important;
-    border:none !important;
-    transform: rotate(0) !important;
-}
-.accordion__button[aria-expanded='true']::after, .accordion__button[aria-selected='true']::after{
-    background-image: url('../images/SVG/minus.svg') !important;
+.react-multiple-carousel__arrow {
+    background-color: transparent !important;
 }

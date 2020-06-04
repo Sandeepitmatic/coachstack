@@ -5,7 +5,6 @@ import Footer from "./footer/Footer";
 import Home from "../main/home/Home";
 
 const MainRoute = ({component: Component}) => {
-
     return (
         <Route
             render={props => (

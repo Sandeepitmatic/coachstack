@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Switch, BrowserRouter} from 'react-router-dom';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 import MainRoute from "./views/components/MainRoute";
 import Home from "./views/main/home/Home";

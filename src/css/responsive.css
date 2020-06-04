@@ -1,60 +1,297 @@
-@media only screen  and (max-width: 768px) {
-    .banner {
-        padding-left: 15px;
-        padding-right: 15px;
+@media only screen  and (min-width: 1600px) {
+    a {
+        font-size: .97vw;
+        transition: .4s;
     }
 
-    .choose-course ul {
+    h1 {
+        font-weight: 900;
+        font-size: 4.4vw;
+        line-height: 5vw;
+    }
+
+    p {
+        font-size: 1.44vw;
+        line-height: 2vw;
+    }
+
+    .defaultButton {
+        border-radius: 50px;
+        height: 54px;
+        font-size: 18px;
+        line-height: 54px;
+    }
+
+
+    .container {
+        max-width: 94% !important;
+    }
+
+    header.header {
         width: 100%;
-        overflow: scroll;
+        height: 80px;
     }
 
-    .coaches-feat.d-flex {
-        display: none !important;
+    header .headerLogo {
+        font-size: 1.64vw;
+        line-height: 1.7vw;
+        margin-right: 20px !important;
     }
 
-    .default-button {
-        margin-bottom: 20px !important;
+    header .headerLogo span {
+        font-size: 32px;
     }
 
-    .section-heading {
+    .header .header-browse {
+        font-size: .97vw;
+        line-height: 1vw;
+        letter-spacing: 0.04em;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: .97vw;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+    }
+
+    .header-button {
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        padding: 10px 14px !important;
+        margin-left: 30px !important;
+    }
+
+    /* section1 Style*/
+    .bannerSection {
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+    }
+
+}
+
+@media only screen  and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .bannerOverlay > div {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0 40px;
+    }
+
+    header.header.show.mobile {
+        display: inline-block;
+    }
+
+    header.header.show.pc {
+        display: none;
+    }
+
+    .bannerSection {
+        height: 700px;
         text-align: center;
     }
 
-    .pcScreen.d-flex {
-        display: none !important;
+    .bannerOverlay {
+        padding-bottom: 270px;
     }
 
-    .mobileScreen.d-flex {
-        display: inline-block !important;
+    .bannerImage img {
+        width: auto;
+        height: 700px;
     }
 
-    ul.react-multi-carousel-track {
+    .bannerLogos {
+        height: auto;
+        padding: 20px 10px 70px;
+    }
+
+    .bannerLogos ul {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .bannerLogos ul li {
+        margin: 10px 20px;
+    }
+
+    .exploreSection .float-left.w-100.text-center {
+        padding: 0 15px;
+    }
+
+    .faqSection .float-left.w-100.text-center {
+        padding: 0 15px;
+    }
+
+    h2 {
+        line-height: 42px !important;
+    }
+
+    .waitingSection h2 {
+        line-height: 52px !important;
+    }
+
+    .faqSection .float-left.w-75.mt-5 {
+        width: 100% !important;
+        padding: 0 20px;
+    }
+
+    .leftRightContent .row.pc {
+        display: none;
+    }
+
+    .leftRightContent .row.mobile {
+        display: inline-block;
+    }
+
+    .leftRightContent .row .col-md-6 {
         text-align: center;
+        max-width: 100%;
     }
 
-    .copyright {
+    .leftRightContent .row .col-md-6 img {
+        margin-bottom: 30px;
+    }
+
+    .leftRightContent .row .col-md-6:first-child {
+        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .header-logo img {
-        height: 24px;
+    img.centerLine {
+        display: inline-block;
     }
 
-    .goal-step .col-md-3 {
-        margin-bottom: 30px;
+    .leftRightContent .py-5 {
+        padding: 0 !important;
     }
 
-    .goal-step .col-md-3:last-child {
-        margin-bottom: 10px;
+    .sectionLine {
+        display: none;
     }
 
-    .mobileScreen .pl-5.col-md-6 {
-        padding-left: 0 !important;
+    .exploreTab ul {
+        overflow: auto;
+        padding-bottom: 30px;
     }
-    .accordion__button span {
-        max-width: 90%;
+
+    .rating.mt-5.float-left.w-100.d-flex.flex-row.justify-content-center.align-items-start {
+        flex-wrap: wrap;
+    }
+
+    .res-100 {
+        width: 100%;
+    }
+
+    .waitingSection .mt-5 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .waitingSection a.defaultButton.lightButton.mr-4 {
+        margin-right: 0 !important;
+        margin-bottom: 15px !important;
+    }
+
+    .header .header-browse {
+        font-size: 20px;
+        height: 80px;
+        line-height: 80px;
+        padding: 0;
+    }
+
+
+    .header-links__dropdown__content {
+        left: inherit;
+        right: 0;
+    }
+
+    .header-browse:hover .header-links__dropdown__content {
+        left: inherit;
+        right: 0;
+        top: 78px;
+    }
+
+    .header-browse:hover .header-links__dropdown__content {
+        line-height: 30px !important;
+    }
+
+    .header-button {
+        border: 1px solid #1d1d1f;
+        padding: 6px 14px !important;
+        margin: 9px 14px !important;
+        float: left;
+        transition: .4s;
+    }
+
+    .header-button:hover {
+        background-color: #1d1d1f;
+        color: #ffffff !important;
+    }
+
+    .exploreSection {
+        padding-bottom: 0 !important;
+    }
+
+    .exploreTab.mobile {
+        display: inline-block;
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .carousel-container.pc {
+        display: none;
+    }
+
+    .exploreTab.mobile {
+        width: 100%;
+    }
+
+    .exploreTab.mobile .item {
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .exploreTab.mobile .explore-cover {
+        width: 100%;
+    }
+
+    .exploreTab .header-button {
+        border-color: #ffffff !important;
+        color: #ffffff !important;
+        font-size: 14px;
+    }
+
+    .exploreTab .header-button:hover:before {
+        display: none !important;
+    }
+
+    .meetCoaches .header-button {
+        border-color: #ffffff !important;
+        color: #ffffff !important;
+        font-size: 14px;
+    }
+
+    .header-links__dropdown__content a.header-button {
+        width: auto !important;
+    }
+
+    .sliderOverlay {
+        background-color: transparent !important;
+    }
+
+    .item:hover .sliderOverlay {
+        opacity: 1 !important;
+        visibility: visible;
     }
 }

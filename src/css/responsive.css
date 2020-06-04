@@ -180,7 +180,7 @@
 
     .exploreTab ul {
         overflow: auto;
-        padding-bottom: 30px;
+        padding: 0 15px 10px 15px;
     }
 
     .rating.mt-5.float-left.w-100.d-flex.flex-row.justify-content-center.align-items-start {
@@ -338,11 +338,12 @@
     .stickyHeader .header-browse {
         display: inherit;
     }
-    .sweetImages li:first-child{
+
+    .sweetImages li:first-child {
         transform: matrix(1, 0, 0, 1, -40, 0);
     }
-    .sweetImages li:last-child{
+
+    .sweetImages li:last-child {
         transform: matrix(1, 0, 0, 1, 40, 0);
     }
-
 }

@@ -8,6 +8,10 @@
     display: inline-block;
 }
 
+.owl-carousel .owl-nav button.owl-prev span, .owl-carousel .owl-nav button.owl-next span {
+    display: none;
+}
+
 .owl-carousel .owl-nav button.owl-next::before {
     content: "" !important;
     width: 30px;
@@ -19,5 +23,12 @@
 }
 
 .react-multiple-carousel__arrow {
+    background-color: transparent !important;
+}
+.owl-theme .owl-nav button{
+    margin: 50px 20px 0  20px!important;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
     background-color: transparent !important;
 }

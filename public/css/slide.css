@@ -1,22 +1,20 @@
-.react-multiple-carousel__arrow--left::before {
+.owl-carousel .owl-nav button.owl-prev::before {
     content: "" !important;
     width: 30px;
     height: 30px;
     background: url('../images/left.png') no-repeat;
     top: 10px;
     right: 5px;
-    position: absolute;
     display: inline-block;
 }
 
-.react-multiple-carousel__arrow--right::before {
+.owl-carousel .owl-nav button.owl-next::before {
     content: "" !important;
     width: 30px;
     height: 30px;
     background: url('../images/right.png') no-repeat;
     top: 10px;
     right: 5px;
-    position: absolute;
     display: inline-block;
 }
 

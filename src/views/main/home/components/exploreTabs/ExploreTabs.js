@@ -1,25 +1,29 @@
 import React, {Component} from 'react';
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from "react-router-dom";
 
-const responsive = {
-    desktop: {
-        breakpoint: {max: 3000, min: 1024},
-        items: 6,
-        slidesToSlide: 1 // optional, default to 1.
-    },
-    tablet: {
-        breakpoint: {max: 1024, min: 464},
-        items: 1,
-        slidesToSlide: 1 // optional, default to 1.
-    },
-    mobile: {
-        breakpoint: {max: 464, min: 0},
-        items: 1,
-        slidesToSlide: 1 // optional, default to 1.
-    }
-};
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+// import Carousel from 'react-multi-carousel';
+// const responsive = {
+//     desktop: {
+//         breakpoint: {max: 3000, min: 1024},
+//         items: 6,
+//         slidesToSlide: 1 // optional, default to 1.
+//     },
+//     tablet: {
+//         breakpoint: {max: 1024, min: 464},
+//         items: 1,
+//         slidesToSlide: 1 // optional, default to 1.
+//     },
+//     mobile: {
+//         breakpoint: {max: 464, min: 0},
+//         items: 1,
+//         slidesToSlide: 1 // optional, default to 1.
+//     }
+// };
 
 class ExploreTabs extends Component {
 
@@ -36,22 +40,19 @@ class ExploreTabs extends Component {
                         <li><Link to="/">Grow</Link></li>
                     </ul>
                 </div>
-                <Carousel
-                    swipeable={false}
-                    draggable={false}
-                    showDots={false}
-                    responsive={responsive}
-                    ssr={false} // means to render carousel on server-side.
-                    infinite={true}
-                    autoPlay={this.props.deviceType !== "mobile" ? true : true}
-                    autoPlaySpeed={200}
-                    keyBoardControl={true}
-                    customTransition="all 1"
-                    transitionDuration={1000}
-                    containerClass="carousel-container pc"
-                    deviceType={this.props.deviceType}
-                    dotListClass="custom-dot-list-style"
-                    itemClass="carousel-item-padding-40-px"
+
+                <OwlCarousel
+                    className="owl-theme"
+                    items={6}
+                    dots={false}
+                    loop={true}
+                    margin={0}
+                    nav={true}
+                    navSpeed={1000}
+                    lazyLoad={true}
+                    autoplaySpeed={1000}
+                    smartSpeed={1000}
+                    autoPlay={true}
                 >
                     <div className="item">
                         <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">
@@ -113,7 +114,97 @@ class ExploreTabs extends Component {
                         </div>
                         <img src="../../../../images/cover/cover6.jpg" alt="banner"/>
                     </div>
-                </Carousel>
+                    <div className="item">
+                        <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">
+                            <h4>Urna congue egestas</h4>
+                            <div className="coachDetial d-flex flex-row align-items-center">
+                                <img src="../../../../images/user.png" alt="user"/>
+                                <p className="p-small">Coach’s Name</p>
+                            </div>
+                        </div>
+                        <img src="../../../../images/cover/cover5.jpg" alt="banner"/>
+                    </div>
+
+                </OwlCarousel>
+
+                {/*<Carousel*/}
+                {/*    swipeable={false}*/}
+                {/*    draggable={false}*/}
+                {/*    showDots={false}*/}
+                {/*    responsive={responsive}*/}
+                {/*    ssr={false} // means to render carousel on server-side.*/}
+                {/*    infinite={true}*/}
+                {/*    autoPlay={this.props.deviceType !== "mobile" ? true : true}*/}
+                {/*    autoPlaySpeed={1}*/}
+                {/*    keyBoardControl={true}*/}
+                {/*    customTransition="all 1"*/}
+                {/*    transitionDuration={1000}*/}
+                {/*    containerClass="carousel-container pc"*/}
+                {/*    deviceType={this.props.deviceType}*/}
+                {/*    dotListClass="custom-dot-list-style"*/}
+                {/*    itemClass="carousel-item-padding-40-px"*/}
+                {/*>*/}
+                {/*    <div className="item">*/}
+                {/*        <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">*/}
+                {/*            <h4>Urna congue egestas</h4>*/}
+                {/*            <div className="coachDetial d-flex flex-row align-items-center">*/}
+                {/*                <img src="../../../../images/user.png" alt="user"/>*/}
+                {/*                <p className="p-small">Coach’s Name</p>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <img src="../../../../images/cover/cover4.jpg" alt="banner"/>*/}
+                {/*    </div>*/}
+                {/*    <div className="item">*/}
+                {/*        <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">*/}
+                {/*            <h4>Urna congue egestas</h4>*/}
+                {/*            <div className="coachDetial d-flex flex-row align-items-center">*/}
+                {/*                <img src="../../../../images/user.png" alt="user"/>*/}
+                {/*                <p className="p-small">Coach’s Name</p>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <img src="../../../../images/cover/cover5.jpg" alt="banner"/>*/}
+                {/*    </div>*/}
+                {/*    <div className="item">*/}
+                {/*        <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">*/}
+                {/*            <h4>Urna congue egestas</h4>*/}
+                {/*            <div className="coachDetial d-flex flex-row align-items-center">*/}
+                {/*                <img src="../../../../images/user.png" alt="user"/>*/}
+                {/*                <p className="p-small">Coach’s Name</p>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <img src="../../../../images/cover/cover3.jpg" alt="banner"/>*/}
+                {/*    </div>*/}
+                {/*    <div className="item">*/}
+                {/*        <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">*/}
+                {/*            <h4>Urna congue egestas</h4>*/}
+                {/*            <div className="coachDetial d-flex flex-row align-items-center">*/}
+                {/*                <img src="../../../../images/user.png" alt="user"/>*/}
+                {/*                <p className="p-small">Coach’s Name</p>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <img src="../../../../images/cover/cover4.jpg" alt="banner"/>*/}
+                {/*    </div>*/}
+                {/*    <div className="item">*/}
+                {/*        <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">*/}
+                {/*            <h4>Urna congue egestas</h4>*/}
+                {/*            <div className="coachDetial d-flex flex-row align-items-center">*/}
+                {/*                <img src="../../../../images/user.png" alt="user"/>*/}
+                {/*                <p className="p-small">Coach’s Name</p>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <img src="../../../../images/cover/cover5.jpg" alt="banner"/>*/}
+                {/*    </div>*/}
+                {/*    <div className="item">*/}
+                {/*        <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">*/}
+                {/*            <h4>Urna congue egestas</h4>*/}
+                {/*            <div className="coachDetial d-flex flex-row align-items-center">*/}
+                {/*                <img src="../../../../images/user.png" alt="user"/>*/}
+                {/*                <p className="p-small">Coach’s Name</p>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <img src="../../../../images/cover/cover6.jpg" alt="banner"/>*/}
+                {/*    </div>*/}
+                {/*</Carousel>*/}
 
 
                 <div className="exploreTab mobile">

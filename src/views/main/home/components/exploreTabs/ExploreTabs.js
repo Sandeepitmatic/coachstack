@@ -42,8 +42,9 @@ class ExploreTabs extends Component {
                 </div>
 
                 <OwlCarousel
-                    className="owl-theme"
+                    className="owl-theme pc"
                     items={6}
+                    autoPlay={true}
                     dots={false}
                     loop={true}
                     margin={0}
@@ -52,7 +53,6 @@ class ExploreTabs extends Component {
                     lazyLoad={true}
                     autoplaySpeed={1000}
                     smartSpeed={1000}
-                    autoPlay={true}
                 >
                     <div className="item">
                         <div className="sliderOverlay d-flex flex-column justify-content-end align-items-start">
